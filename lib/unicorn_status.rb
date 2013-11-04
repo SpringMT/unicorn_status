@@ -1,4 +1,5 @@
 require 'raindrops'
+
 module UnicornStatus
   class Activity
     def self.stat(socket)

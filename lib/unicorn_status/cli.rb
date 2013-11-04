@@ -9,12 +9,12 @@ module UnicornStatus
 
     desc "execute", "hoge"
     def execute
-      if File.exist? socket
-        abort "#{socket} no exsits"
+      unless File.exist? options[:socket]
+        abort "#{options[:socket]} no exsits"
       end
 
       loop do
-        response = UnicornStatus.Activity.stat options[:socket]
+        response = UnicornStatus::Activity.stat options[:socket]
         p response
         sleep options[:interval]
       end
