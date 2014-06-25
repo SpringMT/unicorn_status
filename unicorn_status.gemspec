@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["SpringMT"]
   spec.email         = ["today.is.sky.blue.sky@gmail.com"]
-  spec.description   = %q{Write a gem description}
-  spec.summary       = %q{Write a gem summary}
+  spec.description   = %q{Monitoring for unicorn status}
+  spec.summary       = %q{Monitoring for unicorn status}
   spec.homepage      = ""
   spec.license       = "MIT"
 
