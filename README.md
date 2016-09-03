@@ -20,6 +20,10 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## Refernce
+* http://stackoverflow.com/questions/9951134/unicorn-request-queuing
+* https://github.com/tmm1/raindrops
+
 ## Contributing
 
 1. Fork it
